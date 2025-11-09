@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/blackjack_solitaire/blackjack_solitaire.iml" filepath="$PROJECT_DIR$/blackjack_solitaire/blackjack_solitaire.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mini-projects.iml" filepath="$PROJECT_DIR$/mini-projects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uno/uno.iml" filepath="$PROJECT_DIR$/uno/uno.iml" />
+    </modules>
+  </component>
+</project>
