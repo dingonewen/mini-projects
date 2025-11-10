@@ -67,7 +67,6 @@ public class SpellChecker {
                         boolean choice1 = false;
                         while (!choice1) {
                             char promptc = inputReader.next().charAt(0);
-                            // XXX: the input after r has to be an int from [1,topN]?
                             if (promptc == 'r') {
                                 System.out.printf(Util.AUTOMATIC_REPLACEMENT_PROMPT);
                                 int prompti = -1;
@@ -94,8 +93,7 @@ public class SpellChecker {
                                 System.out.printf(Util.MANUAL_REPLACEMENT_PROMPT);
                                 word = inputReader.next();
                                 writer.print(word + " ");
-                                choice1 = true;
-                                // XXX： what if the input next 't' is not a literal word?
+                                choice1 = true;  // input after 't' can be any typed input
                             } else {
                                 System.out.printf(Util.INVALID_RESPONSE);
                             }
@@ -106,7 +104,6 @@ public class SpellChecker {
                         boolean choice2 = false;
                         while (!choice2) {
                             char promptc = inputReader.next().charAt(0);
-                            // XXX: the input after r has to be an int from [1,topN]?
                             if (promptc == 'a') {
                                 writer.print(word + " ");
                                 choice2 = true;
@@ -114,15 +111,13 @@ public class SpellChecker {
                                 System.out.printf(Util.MANUAL_REPLACEMENT_PROMPT);
                                 word = inputReader.next();
                                 writer.print(word + " ");
-                                choice2 = true;
-                                // XXX： what if the input next 't' is not a literal word?
+                                choice2 = true;   // input after 't' can be any typed input
                             } else {
                                 System.out.printf(Util.INVALID_RESPONSE);
                             }
                         }
                     }
                 } else {
-                    // XXX: if the word is indeed in the dictionary, should I also print it to the chkFileNameUpdate?
                     writer.print(word + " ");
                 }
             }
