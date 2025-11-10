@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/blackjack_solitaire/blackjack_solitaire.iml" filepath="$PROJECT_DIR$/blackjack_solitaire/blackjack_solitaire.iml" />
       <module fileurl="file://$PROJECT_DIR$/mini-projects.iml" filepath="$PROJECT_DIR$/mini-projects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spell_checker/spell_checker.iml" filepath="$PROJECT_DIR$/spell_checker/spell_checker.iml" />
       <module fileurl="file://$PROJECT_DIR$/uno/uno.iml" filepath="$PROJECT_DIR$/uno/uno.iml" />
     </modules>
   </component>

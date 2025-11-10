@@ -36,6 +36,35 @@ Similarity = (Left-aligned matches + Right-aligned matches) / 2
 ```
 Compares characters from both ends to rank suggestions by relevance.
 
+## How to Run
+
+### Prerequisites
+- Java 11 or higher
+
+### Running the Application
+
+1. Compile the source files:
+```bash
+javac src/*.java
+```
+
+2. Run the program:
+```bash
+java -cp src SpellCheckerRunner
+```
+
+3. When prompted, enter file paths:
+    - Dictionary file: `spell_checker/src/engDictionary.txt`
+    - Input file to check: `spell_checker/src/sampleCheck.txt`
+
+4. Output will be generated as: `spell_checker/src/sampleCheck_chk.txt`
+
+### Sample Files Included
+
+- **src/engDictionary.txt** - English dictionary for word validation
+- **src/sampleCheck.txt** - Sample input text with misspellings
+- **src/sampleCheck_chk.txt** - Example output showing corrections
+
 ## Testing
 
 Comprehensive JUnit 5 test suite including:
@@ -52,10 +81,20 @@ This was originally a team assignment for CIT 591. This repository contains my c
 - Test-driven development practices
 - Clean code organization and error handling
 
+## Sample Output
+```
+Input: "morbit"
+Suggestions:
+1. morbid
+2. hobbit  
+3. sorbet
+4. forbid
+```
+
 ## Skills Demonstrated
 
 Java • Data Structures • Algorithm Design • Unit Testing • File I/O • Problem Solving
 
 ---
 
-[View Code on GitHub](www.dingonewen.github.io)
+[View Code on GitHub](www.github.com/dingonewen)
