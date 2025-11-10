@@ -1,52 +1,61 @@
-# Spell Checker Project
+# Spell Checker with Word Recommendation
 
-A Java spell checker that detects misspelled words from one file, suggests corrections based on similarity algorithms and return a new file.
+A Java command-line application that detects misspelled words and suggests corrections using custom similarity algorithms.
 
-## Author
+## Technical Overview
 
-Yiwen Ding - Independent implementation for portfolio
+**Language:** Java  
+**Testing:** JUnit 5  
+**Key Concepts:** Algorithm design, data structures, string processing
 
-**Note:** This was originally a team assignment, but this version is my complete individual implementation.
+## Core Features
 
-## Objectives
+### Word Recommendation Engine
+- **Candidate Filtering:** Filters dictionary words by length tolerance and character overlap
+- **Similarity Ranking:** Custom left-right similarity algorithm compares character matches from both ends
+- **Efficient Lookup:** HashSet implementation for O(1) dictionary searches
+- **Custom Sorting:** Selection sort algorithm to return top N suggestions (Collections.sort not permitted per requirements)
 
-- Read a dictionary file and identify misspelled words in an input file
-- Generate word suggestions based on length tolerance and character similarity
-- Rank suggestions using a custom left-right similarity algorithm
-- Provide an interactive interface for users to correct misspelled words
-- Write comprehensive unit tests for the recommendation system
+### Interactive Spell Checker
+- File I/O with robust exception handling
+- User-friendly prompts for dictionary and input file selection
+- Interactive correction options (replace with suggestion, accept as-is, or manual entry)
+- Automated output file generation
 
-## Features
+## Algorithm Highlights
 
-### Word Recommendation System
-- Filters candidate words by length difference (tolerance)
-- Calculates character commonality using set operations
-- Ranks suggestions by left-right similarity score
-- Returns top N most similar words
-- Custom sorting implementation (no Collections.sort allowed)
-
-### Spell Checker Interface
-- Prompts user for dictionary and input files
-- Detects words not in dictionary
-- Displays top 4 suggestions for each misspelled word
-- Allows user to replace, accept, or manually correct words
-- Outputs corrected text to a new file
-
-### Testing
-- JUnit 4 test suite for WordRecommender
-- Tests for similarity calculations, filtering, and sorting
-- Edge case testing (empty results, boundary values)
-
-## Technologies
-
-- Java
-- JUnit 4
-- Data structures: HashMap, HashSet, ArrayList
-
-## How to Run
-```bash
-javac SpellCheckerRunner.java
-java SpellCheckerRunner
+**Character Commonality Calculation:**
 ```
+Percentage = |Set A ∩ Set B| / |Set A ∪ Set B|
+```
+Uses set theory to determine shared characters between words.
 
-Follow prompts to enter dictionary file and file to spell check.
+**Left-Right Similarity:**
+```
+Similarity = (Left-aligned matches + Right-aligned matches) / 2
+```
+Compares characters from both ends to rank suggestions by relevance.
+
+## Testing
+
+Comprehensive JUnit 5 test suite including:
+- Unit tests for similarity calculations
+- Property-based testing (validates size constraints, sorting order)
+- Edge case handling (empty results, boundary values)
+- Test fixture setup with `@BeforeEach` for test isolation
+
+## Implementation Notes
+
+This was originally a team assignment for CIT 591. This repository contains my complete independent implementation demonstrating:
+- Data structure optimization for performance
+- Algorithm design without using library sorting functions
+- Test-driven development practices
+- Clean code organization and error handling
+
+## Skills Demonstrated
+
+Java • Data Structures • Algorithm Design • Unit Testing • File I/O • Problem Solving
+
+---
+
+[View Code on GitHub](www.dingonewen.github.io)

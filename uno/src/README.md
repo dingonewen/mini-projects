@@ -2,6 +2,7 @@
 
 A Java implementation of the classic UNO card game, featuring support for 2-4 players with both human and computer opponents.
 
+This project was developed as a learning exercise to practice Java OOP concepts including classes, inheritance, encapsulation, and game logic. Implementation based on course tutorial, with debugging and modifications.
 ## Overview
 
 This project implements the UNO card game rules, allowing players to compete against each other in a turn-based card game. The game enforces all standard UNO rules including card matching and draw penalties.
@@ -49,9 +50,4 @@ The project consists of the following main classes:
 - Java 8 or higher
 - No external dependencies
 
-## Author
 
-- Implementation by: Yiwen Ding
-- Based on: CIT 5910 course assignment
-
-This project was developed as a learning exercise to practice Java OOP concepts including classes, inheritance, encapsulation, and game logic. Implementation based on course tutorial, with debugging and modifications.

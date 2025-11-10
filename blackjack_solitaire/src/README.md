@@ -1,10 +1,5 @@
 # BLACKJACK SOLITAIRE
 
-**Student Name:** Yiwen Ding  
-**Contact:** dingywn@seas.upenn.edu  
-**Date:** 2025-10-29  
-**Course:** CIT 5910
-
 *This project was completed independently as part of the course requirements.*
 
 ---
