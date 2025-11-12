@@ -208,15 +208,4 @@ public class BlackjackSolitaire {
         }
         return score;
     }
-
-    // TEST
-    public static void main(String[] args) {
-        BlackjackSolitaire g = new BlackjackSolitaire();
-        g.displayBoard();
-        ArrayList<Card> hand1 = new ArrayList<>();
-        hand1.add(new Card("K", "H"));
-        hand1.add(new Card("A", "D"));
-        hand1.add(new Card("10", "S"));
-        System.out.println(g.calculateHandScore(hand1));
-    }
 }

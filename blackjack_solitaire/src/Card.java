@@ -27,13 +27,4 @@ public class Card {
         return rank;
     }
 
-    // TEST
-    public static void main(String[] args) {
-        Card card1 = new Card("3","C");
-        System.out.println(card1.getValue());
-        System.out.println(card1.toString());
-        Card card2 = new Card("A","D");
-        System.out.println(card2.getValue());
-        System.out.println(card2.toString());
-    }
 }
