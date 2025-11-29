@@ -5,6 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b23b6a8-4048-4f69-93c6-039dadf18d76" name="Changes" comment="remove tests">
+      <change afterPath="$PROJECT_DIR$/hangman/engDictionary.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hangman/src/EvilHangman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hangman/src/EvilHangmanRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hangman/src/EvilSolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hangman/src/Hangman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hangman/src/HangmanRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hangman/src/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hangman/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hangman/test/EvilHangmanTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hangman/test/EvilSolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hangman/testDictionary.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,32 +46,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.SpellCheckerRunner.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/miadi/mini-projects/spell_checker&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.SpellCheckerRunner.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/miadi/mini-projects/hangman",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "terminal",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\miadi\mini-projects\uno" />
@@ -160,6 +171,11 @@
       <workItem from="1762793372173" duration="223000" />
       <workItem from="1762910517409" duration="1400000" />
       <workItem from="1762954465421" duration="840000" />
+      <workItem from="1763171437010" duration="378000" />
+      <workItem from="1763173254562" duration="33000" />
+      <workItem from="1763173702586" duration="1000" />
+      <workItem from="1764276294080" duration="602000" />
+      <workItem from="1764374129080" duration="959000" />
     </task>
     <task id="LOCAL-00001" summary="upload files to repo">
       <option name="closed" value="true" />
