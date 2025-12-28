@@ -1,0 +1,28 @@
+# Compiled Object Files
+*.o
+
+# Executables
+lc4
+test_memory
+
+# Debug Files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Core Dumps
+core
+core.*
+
+# Editor/IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Valgrind Output
+vgcore.*
+*.log

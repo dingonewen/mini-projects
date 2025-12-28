@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b23b6a8-4048-4f69-93c6-039dadf18d76" name="Changes" comment="remove tests">
-      <change afterPath="$PROJECT_DIR$/hangman/engDictionary.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hangman/src/EvilHangman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hangman/src/EvilHangmanRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hangman/src/EvilSolution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hangman/src/Hangman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hangman/src/HangmanRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hangman/src/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hangman/src/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hangman/test/EvilHangmanTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hangman/test/EvilSolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hangman/testDictionary.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7b23b6a8-4048-4f69-93c6-039dadf18d76" name="Changes" comment="add Evil Hangman game">
+      <change beforePath="$PROJECT_DIR$/mini-projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mini-projects.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +164,7 @@
       <workItem from="1763173254562" duration="33000" />
       <workItem from="1763173702586" duration="1000" />
       <workItem from="1764276294080" duration="602000" />
-      <workItem from="1764374129080" duration="959000" />
+      <workItem from="1764374129080" duration="1097000" />
     </task>
     <task id="LOCAL-00001" summary="upload files to repo">
       <option name="closed" value="true" />
@@ -249,7 +238,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762917065218</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add Evil Hangman game">
+      <option name="closed" value="true" />
+      <created>1764375110958</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1764375110958</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,6 +262,7 @@
     <MESSAGE value="resolve all XXX after clarification" />
     <MESSAGE value="reorganize files" />
     <MESSAGE value="remove tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove tests" />
+    <MESSAGE value="add Evil Hangman game" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Evil Hangman game" />
   </component>
 </project>
