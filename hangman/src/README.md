@@ -168,9 +168,9 @@ The project includes comprehensive test coverage:
 
 ## 👨‍💻 Author
 
-Yiwen Ding
-github@dingonewen
-Developed as part of a Java programming course, focusing on object-oriented design, algorithms, and best practices.
+- Yiwen Ding
+- github@dingonewen
+- Developed as part of a Java programming course, focusing on object-oriented design, algorithms, and best practices.
 
 ---
 
